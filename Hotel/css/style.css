@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', serif;
+}
+
+header {
+	padding-left: 8%;
+	padding-right: 8%;
+	height: 100vh;
+	background-image: url(../img/Rectangle.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	margin-top: 30px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.nav li {
+	list-style: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	transition: 0.5s;
+}
+
+.nav li a:hover {
+	color: #D4C17F;
+}
+
+.content {
+	text-align: center;
+	margin-top: 125px;
+}
+
+.content p {
+	font-family: Playfair Display;
+	font-size: 48px;
+	font-weight: 700;
+	color: #D4C17F;
+}
+
+.content_logo {
+	margin-top: 35px;
+	cursor: pointer;
+}
+
+.adress {
+	display: flex;
+	text-align: center;
+	margin-top: 185px;
+	justify-content: center;
+}
+
+.adress p span img{
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.adress p {
+	padding: 0 16px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+/*SECTION__1*/
+
+section {
+	background-color: #242B33;
+}
+
+.wrapper {
+	padding-top: 100px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.column {
+	padding: 0 65px;
+	text-align: center;
+}
+
+.thumb {
+	cursor: pointer;
+}
+
+.column p {
+	margin-top: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Roboto';
+	font-size: 14px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.column p:hover {
+	color: #D4C17F;
+}
+
+.title-house {
+	margin-top: 150px;
+	padding-left: 8%;
+}
+
+.title-house p {
+	font-size: 36px;
+	font-family: 'Playfair Display';
+	color: #d4c17f;
+}
+
+.houses {
+	padding-top: 80px;
+	padding-left: 8%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.loft {
+	padding: 5px 10px;
+}
+
+.loft p {
+	color: #FFFFFF;
+	font-family: Raleway;
+}
+
+/*SECTION__2*/
+
+.building {
+	padding-right: 10%;
+	padding-left: 8%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(../img/building.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.title-p {
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-size: 36px;
+	color: #d4c17f;
+	margin-bottom: 50px;
+}
+
+.section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col p {
+	color: #FFFFFF;
+	font-family: 'Raleway';
+}
+
+.col2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.requst p {
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family: 'Raleway';
+	margin-top: 10px;
+}
+
+.col3 {
+	display: flex;
+}
+
+.col3 p {
+	margin-right: 33px;
+	margin-left: 7px;
+}
+
+input {
+	width: 255px;
+	height: 50px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: none;
+	opacity: 0.2;
+	color: #FFFFFF;
+	outline: none;
+	margin: 5px 7px;
+}
+
+button {
+	width: 255px;
+	height: 50px;
+	background-color: #D4C17F;
+	color: #FFFFFF;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #D4C17F;
+}
+
+/* SECTION__3 */
+
+.video_play {
+	padding-top: 80px;
+	padding-left: 32%;
+	padding-bottom: 150px;
+}
+
+.video_play img {
+	width: 570px;
+}
+
+/* SECTION__4 */
+
+.title-carts {
+	padding-left: 8%;
+}
+
+.title-carts p {
+	font-size: 36px;
+	font-family: 'Playfair Display';
+	color: #d4c17f;
+}
+
+.carts {
+	padding-top: 80px;
+	padding-left: 23%;
+	padding-bottom: 200px;
+	filter: grayscale(100%);
+}
+
+.contacts {
+	padding-top: 50px;
+	padding-left: 8%;
+	display: flex;
+	padding-bottom: 300px;
+}
+
+.contacts button {
+	margin-top: 5px;
+	margin-left: 7px;
+}
+
+.contacts p {
+	justify-content: center;
+	text-align: center;
+	margin-right: 7px;
+	margin-top: 8px;
+	color: #E7E7E7;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #2d343c;
+	height: 272px;
+	padding-left: 8%;
+}
+
+.footer_links {
+	display: flex;
+	padding-top: 70px;
+}
+
+.footer_links .links {
+	padding: 0 97px;
+}
+
+.links ul li {
+	list-style: none;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 22px;
+	transition: 0.8s;
+	font-family: Raleway;
+}
+
+.links ul li a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
+.links .icons {
+	padding-top: 5px;
+}
+
+.links .icons img {
+	padding: 0 7px;
+	cursor: pointer;
+}
