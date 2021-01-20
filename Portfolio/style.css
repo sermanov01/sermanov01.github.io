@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+nav {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 60px;
+}
+
+nav ul li a {
+    color: #000;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.header ul li {
+    list-style: none;
+    flex: 1;
+    display: inline-block;
+}
+
+.header ul .br {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about h4 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+
+.lorem {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.skills1 {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills1 h4 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+
+.skills1 p {
+    margin-bottom: 50px;
+}
+
+.skillis2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillis2 img {
+    margin: 0 40px;
+}
+
+.portfolio h4 {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+
+.portfolio p {
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 0;
+}
+
+footer {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contacts {
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contacts h4 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+
+.contacts p {
+    margin: 50px 0;
+}
+
+.contacts button {
+    margin-bottom: 50px;
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon img {
+    margin: 0 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+footer p {
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
